@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app{
+  display: flex;
+  justify-content: center;
+}
+.inside{
+  width: 700px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btns{
+  margin-top: 30px;
+}
+
+.btn{
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+}
+.home--btn:hover{
+  color: tomato;
+}
+.blog--btn{
+  margin-left: 20px;
+  background-color:slategray;
+  border-radius: 10px;
+  color: #fff;
+}
+.blog--btn:hover{
+  background-color: #fff;
+  color: slategray;
+}
+
+.content{
+  margin-top: 50px;
+}
+
