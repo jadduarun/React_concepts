@@ -1,14 +1,28 @@
-import React from 'react'
+import React from "react";
 
 const ContentPage = () => {
+  const datas = [
+    {
+      title: "Title 1",
+      author: "Author 1",
+    },
+    {
+      title: "Title 2",
+      author: "Author 2",
+    },
+  ];
   return (
-    <div className='content'>
-        <h2>Opening Party!</h2>
-        <p>written by Arun</p>
-        <h2>Welcome to the New Blog</h2>
-        <p>written by Prajith</p>
+    <div className="content">
+      {datas.map(function (item) {
+        return (
+          <div>
+            <h2>{item.title}</h2>
+            <p>Written by {item.author}</p>
+          </div>
+        );
+      })}
     </div>
-  )
-}
+  );
+};
 
-export default ContentPage
+export default ContentPage;
