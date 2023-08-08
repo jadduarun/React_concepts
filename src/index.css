@@ -41,6 +41,7 @@ code {
   background-color:slategray;
   border-radius: 10px;
   color: #fff;
+  text-decoration: none;
 }
 .blog--btn:hover{
   background-color: #fff;
@@ -49,5 +50,16 @@ code {
 
 .content{
   margin-top: 50px;
+}
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
+.div{
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
 }
 

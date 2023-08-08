@@ -6,7 +6,7 @@ const Navbar = () => {
       <h1 className="title">The Dojo Blog</h1>
       <div className="btns">
         <button className="home--btn btn">Home</button>
-        <button className="blog--btn btn">New Blog</button>
+        <a href="./create" className="blog--btn btn">New Blog</a>
       </div>
     </div>
   );

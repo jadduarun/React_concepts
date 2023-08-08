@@ -1,26 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
+import Bloglist from "./bloglist";
 
-const ContentPage = () => {
-  const datas = [
-    {
-      title: "Title 1",
-      author: "Author 1",
-    },
-    {
-      title: "Title 2",
-      author: "Author 2",
-    },
-  ];
+const ContentPage = (props) => {
+
+  let {data,age}=props;
+  let name = "Arun";
+
+  const handleClick = () => {
+    console.log("Hi")
+    name = "Prajith";
+  }
+  // const data2 = data.filter(data => data.author === "Author 1");
+  // const data3 = data.filter(data => data.author === "Author 2");
   return (
     <div className="content">
-      {datas.map(function (item) {
-        return (
-          <div>
-            <h2>{item.title}</h2>
-            <p>Written by {item.author}</p>
-          </div>
-        );
-      })}
+      <Bloglist data={data}/>
+      {/* <Bloglist className="red" data={data2}/>
+      <Bloglist className="blue" data={data3}/> */}
+      <h2>Homepage</h2>
+      <p>{name} is {age} years old</p>
+      <button onClick={handleClick}>Click Me!</button>
     </div>
   );
 };
