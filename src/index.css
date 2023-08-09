@@ -62,4 +62,41 @@ code {
   height: 100px;
   width: 100px;
 }
+body{
+  background-color: thistle;
+}
+.outside-form-div{
+  display: flex;
+  justify-content: center;
+}
+.form-title{
+  text-align: center;
+}
+.form{
+  margin-right: 220px;
+  margin-top: 80px;
+  border: 1px solid black;
+  padding: 20px 50px;
+}
+.button{
+  background-color:cornflowerblue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding:10px 20px;
+  margin: 25px;
+}
+.form--div{
+  border: 1px solid black;
+  height: 280px;
+  width: 280px;
+  margin-top: 95px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.name,.age{
+  margin-top: 48px;
+}
 

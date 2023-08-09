@@ -1,10 +1,10 @@
 import "./App.css";
 import Navbar from "./Navbar";
 import ContentPage from "./contentPage";
-import API from "./API";
 import Garage from "./Garage";
 import Stopwatch from "./Stopwatch";
 import Toggle from "./Toggle";
+import Form from "./Form";
 
 function App() {
   // const datas = [
@@ -27,7 +27,8 @@ function App() {
       </div> */}
       {/* <Garage /> */}
       {/* <Stopwatch /> */}
-      <Toggle />
+      {/* <Toggle /> */}
+      <Form />
     </div>
   );
 }
