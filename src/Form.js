@@ -31,6 +31,8 @@ function Form() {
       type: "ADD",
       payload: { name: name, age: age },
     });
+    setName("")
+    setAge("")
   }
   function handleReset(e) {
     e.preventDefault();
